@@ -1,0 +1,13 @@
+*.cache
+*.local.config
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.REMOTE.*
+
+*/_ReSharper.*
+*/_ReSharper.*/*
+
+StugService.6.0.ReSharper.user
+*/StugService.Web/obj/
+*/StugService.Web/bin/
