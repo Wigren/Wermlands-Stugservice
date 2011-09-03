@@ -5,9 +5,10 @@
 *.BASE.*
 *.REMOTE.*
 
-*/_ReSharper.*
-*/_ReSharper.*/*
+StugService/_ReSharper.*
+StugService/_ReSharper.*/*
 
 StugService.6.0.ReSharper.user
 */StugService.Web/obj/
 */StugService.Web/bin/
+StugService/_ReSharper
