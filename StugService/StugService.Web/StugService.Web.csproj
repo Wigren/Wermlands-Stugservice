@@ -59,7 +59,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\EnController.cs" />
+    <Compile Include="Controllers\NlController.cs" />
+    <Compile Include="Controllers\DeController.cs" />
+    <Compile Include="Controllers\SvController.cs" />
+    <Compile Include="Extensions\HtmlExtensions.cs" />
+    <Compile Include="Extensions\HttpRequestExtensions.cs" />
+    <Compile Include="Common\Lang.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -96,8 +102,19 @@
     <Content Include="Lib\SquishIt\SquishIt.Framework.dll" />
     <Content Include="Lib\SquishIt\SquishIt.Mvc.dll" />
     <Content Include="Lib\SquishIt\Yahoo.Yui.Compressor.dll" />
-    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Sv\Om.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Sv\Tjanster.cshtml" />
+    <Content Include="Views\De\Index.cshtml" />
+    <Content Include="Views\De\Uber.cshtml" />
+    <Content Include="Views\De\Angebote.cshtml" />
+    <Content Include="Views\Nl\Service.cshtml" />
+    <Content Include="Views\Nl\Index.cshtml" />
+    <Content Include="Views\En\Index.cshtml" />
+    <Content Include="Views\En\Services.cshtml" />
+    <Content Include="Views\En\About.cshtml" />
+    <Content Include="Views\Shared\_Menu.cshtml" />
+    <Content Include="Views\Nl\Over.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
@@ -120,7 +137,7 @@
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Sv\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_LogOnPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />

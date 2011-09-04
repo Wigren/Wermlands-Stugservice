@@ -1,0 +1,11 @@
+wermlandstugservice
+stugs@rv1ce
+
+
+Account Info:
+   wermlands-stugservice
+   Christian <christian@wigren.se>
+   Free plan (200 msg/day)
+
+API URL : http(s)://mailgun.net/api
+API Key : key-37i8n53sxysaq5gub3

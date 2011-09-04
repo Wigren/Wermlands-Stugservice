@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace StugService.Web.Controllers
 {
-    public class HomeController : Controller
+    public class SvController : Controller
     {
         public ActionResult Index()
         {
@@ -15,7 +11,12 @@ namespace StugService.Web.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Om()
+        {
+            return View();
+        }
+        
+        public ActionResult Tjanster()
         {
             return View();
         }

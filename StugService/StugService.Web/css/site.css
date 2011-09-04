@@ -122,6 +122,13 @@ page width. Or, you can specify an exact pixel width. */
     font-size: .9em;
 }
 
+#footer .column
+{
+    float: left;
+    width: 33%;
+}
+
+
 /* TAB MENU   
 ----------------------------------------------------------*/
 ul#menu

@@ -1,0 +1,28 @@
+﻿@using StugService.Web.Common
+@using StugService.Web.Extensions
+<ul id="menu">
+    @if (Request.CurrentLang() == Lang.Sv)
+    {
+        <li>@Html.ActionLink("Start", "Index", "Sv")</li>
+        <li>@Html.ActionLink("Våra tjänster", "Tjanster", "Sv")</li>
+        <li>@Html.ActionLink("Om Oss", "Om", "Sv")</li>
+    }
+    else if (Request.CurrentLang() == Lang.En)
+    {
+        <li>@Html.ActionLink("Start", "Index", "En")</li>
+        <li>@Html.ActionLink("Our Services", "Services", "En")</li>
+        <li>@Html.ActionLink("About", "About", "En")</li>
+    }
+    else if (Request.CurrentLang() == Lang.De)
+    {
+        <li>@Html.ActionLink("Start", "Index", "De")</li>
+        <li>@Html.ActionLink("Angebote", "Angebote", "De")</li>
+        <li>@Html.ActionLink("Über uns", "Uber", "De")</li>
+    }
+    else if (Request.CurrentLang() == Lang.Nl)
+    {
+        <li>@Html.ActionLink("Start", "Index", "Nl")</li>
+        <li>@Html.ActionLink("Service", "Service", "Nl")</li>
+        <li>@Html.ActionLink("Over", "Over", "Nl")</li>
+    }
+</ul>
