@@ -54,25 +54,7 @@
             @RenderBody()
         </div>
         <footer id="footer">
-        <div class="column">
-        <h2>Kontakt</h2>
-        <h3>Bokning och frågor</h3>
-        <ul>
-            <li>Daniel Bergström 0702-072072</li>
-            <li>Linnéa Engström 0702-072073</li>
-        </ul>
-        <h3>Servicetekniker</h3>
-        <ul>
-            <li>Lars-Erik Engström 070207207</li>
-            <li>Mikeal Engström 0702072074</li>
-        </ul>
-        </div>
-        <div class="column">
-        <h2>Vi som jobbar här</h2>
-        </div>
-        <div class="column">
-        <h2>Vi har f-skatt osv</h2>
-        </div>
+            @Html.Partial("_Footer")
         </footer>
     </div>
     <!--! end of #container -->
@@ -94,13 +76,13 @@
   <![endif]-->
     <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
     <!-- Commented out until you deploy -->
-    @*<script>
-          var _gaq = [['_setAccount', 'UA-25428877-1'], ['_trackPageview']];
-          (function (d, t) {
-              var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.async = 1;
-              g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
-              s.parentNode.insertBefore(g, s)
-          } (document, 'script'));
-  </script>*@
+    <script>
+        var _gaq = [['_setAccount', 'UA-25428877-1'], ['_trackPageview']];
+        (function (d, t) {
+            var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.async = 1;
+            g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g, s)
+        } (document, 'script'));
+    </script>
 </body>
 </html>

@@ -115,6 +115,7 @@
     <Content Include="Views\En\About.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\Nl\Over.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
