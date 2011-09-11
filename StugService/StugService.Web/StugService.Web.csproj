@@ -83,6 +83,7 @@
     <Content Include="demo\test_tubes.png" />
     <Content Include="GenericErrorPage.html" />
     <Content Include="humans.txt" />
+    <Content Include="img\wss_logotype.png" />
     <Content Include="js\libs\jquery-1.6.2.min.js" />
     <Content Include="js\libs\jquery.unobtrusive-ajax.js" />
     <Content Include="js\libs\jquery.unobtrusive-ajax.min.js" />
@@ -148,7 +149,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="img\" />
     <Folder Include="js\mylibs\" />
     <Folder Include="Models\" />
   </ItemGroup>

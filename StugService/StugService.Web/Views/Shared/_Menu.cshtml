@@ -3,26 +3,26 @@
 <ul id="menu">
     @if (Request.CurrentLang() == Lang.Sv)
     {
-        <li>@Html.ActionLink("Start", "Index", "Sv")</li>
-        <li>@Html.ActionLink("Våra tjänster", "Tjanster", "Sv")</li>
-        <li>@Html.ActionLink("Om Oss", "Om", "Sv")</li>
+        <li>@Html.ActionLink("start", "Index", "Sv")</li>
+        <li>@Html.ActionLink("våra tjänster", "Tjanster", "Sv")</li>
+        <li>@Html.ActionLink("om oss", "Om", "Sv")</li>
     }
     else if (Request.CurrentLang() == Lang.En)
     {
-        <li>@Html.ActionLink("Start", "Index", "En")</li>
-        <li>@Html.ActionLink("Our Services", "Services", "En")</li>
-        <li>@Html.ActionLink("About", "About", "En")</li>
+        <li>@Html.ActionLink("start", "Index", "En")</li>
+        <li>@Html.ActionLink("our Services", "Services", "En")</li>
+        <li>@Html.ActionLink("about", "About", "En")</li>
     }
     else if (Request.CurrentLang() == Lang.De)
     {
-        <li>@Html.ActionLink("Start", "Index", "De")</li>
-        <li>@Html.ActionLink("Angebote", "Angebote", "De")</li>
-        <li>@Html.ActionLink("Über uns", "Uber", "De")</li>
+        <li>@Html.ActionLink("start", "Index", "De")</li>
+        <li>@Html.ActionLink("angebote", "Angebote", "De")</li>
+        <li>@Html.ActionLink("über uns", "Uber", "De")</li>
     }
     else if (Request.CurrentLang() == Lang.Nl)
     {
-        <li>@Html.ActionLink("Start", "Index", "Nl")</li>
-        <li>@Html.ActionLink("Service", "Service", "Nl")</li>
-        <li>@Html.ActionLink("Over", "Over", "Nl")</li>
+        <li>@Html.ActionLink("start", "Index", "Nl")</li>
+        <li>@Html.ActionLink("service", "Service", "Nl")</li>
+        <li>@Html.ActionLink("over", "Over", "Nl")</li>
     }
 </ul>

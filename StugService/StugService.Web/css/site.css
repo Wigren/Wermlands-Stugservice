@@ -6,7 +6,6 @@
 
 body
 {
-    background-color: #5c87b2;
     color: #696969;
 }
 
@@ -107,6 +106,7 @@ page width. Or, you can specify an exact pixel width. */
 #main
 {
     padding: 30px 30px 15px 30px;
+    border-bottom: 2px solid #cdcdcd;
     background-color: #fff;
     margin-bottom: 30px;
     _height: 1px; /* only IE6 applies CSS properties starting with an underscore */
@@ -133,11 +133,12 @@ page width. Or, you can specify an exact pixel width. */
 ----------------------------------------------------------*/
 ul#menu
 {
-    border-bottom: 1px #5C87B2 solid;
+    border-bottom: 2px #cdcdcd solid;
     padding: 0 0 2px;
     position: relative;
     margin: 0;
     text-align: right;
+    font-size: 18px;
 }
 
 ul#menu li
@@ -161,8 +162,7 @@ ul#menu li a
     font-weight: bold;
     text-decoration: none;
     line-height: 2.8em;
-    background-color: #e8eef4;
-    color: #034af3;
+    color: #0099FF;
 }
 
 ul#menu li a:hover
@@ -173,14 +173,14 @@ ul#menu li a:hover
 
 ul#menu li a:active
 {
-    background-color: #a6e2a6;
+    background-color: #fff;
     text-decoration: none;
 }
 
 ul#menu li.selected a
 {
     background-color: #fff;
-    color: #000;
+    color: #333333;
 }
 
 /* FORM LAYOUT ELEMENTS   
@@ -253,7 +253,7 @@ table th
 
 #menucontainer
 {
-    margin-top:40px;
+    margin-top:100px;
 }
 
 div#title
@@ -263,30 +263,43 @@ div#title
     text-align:left;
 }
 
+#logo
+{
+    margin-top: 82px;
+}
+
 #logindisplay
 {
-    font-size:1.1em;
-    display:block;
-    text-align:right;
-    margin:10px;
-    color:White;
+    background-color: #000000;
+    color: #cccccc;
+    display: block;
+    font-size: 1.1em;
+    height: 21px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    text-align: right;
+}
+
+#logindisplay a
+{
+    padding-right: 10px;
 }
 
 #logindisplay a:link
 {
-    color: white;
-    text-decoration: underline;
+    color: #cccccc;
+    text-decoration: none;
 }
 
 #logindisplay a:visited
 {
-    color: white;
-    text-decoration: underline;
+    color: #cccccc;
+    text-decoration: none;
 }
 
 #logindisplay a:hover
 {
-    color: white;
+    color: #cccccc;
     text-decoration: none;
 }
 
