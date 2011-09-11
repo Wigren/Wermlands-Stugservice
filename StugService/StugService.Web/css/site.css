@@ -79,9 +79,10 @@ first child of the left and right table columns */
 page width. Or, you can specify an exact pixel width. */
 .page, #container
 {
-    width: 90%;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
+    background:#ffffff url('/img/bakgrundvinter01.png') no-repeat right 23px;
 }
 
 #header
@@ -107,25 +108,34 @@ page width. Or, you can specify an exact pixel width. */
 {
     padding: 30px 30px 15px 30px;
     border-bottom: 2px solid #cdcdcd;
-    background-color: #fff;
-    margin-bottom: 30px;
     _height: 1px; /* only IE6 applies CSS properties starting with an underscore */
+    min-height: 295px;
+}
+
+#main.content
+{
+    background-color: #fff;
 }
 
 #footer
 {
     color: #999;
-    padding: 10px 0;
+    padding: 10px 0 20px 0;
     text-align: center;
     line-height: normal;
-    margin: 0;
+    margin: 0 0 10px 0;
     font-size: .9em;
+    min-height: 200px;
+    background:#ffffff url('/img/skuggning.png') no-repeat right top;
 }
 
 #footer .column
 {
     float: left;
-    width: 33%;
+    width: 28%;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 20px;
 }
 
 
@@ -253,7 +263,7 @@ table th
 
 #menucontainer
 {
-    margin-top:100px;
+    margin-top:80px;
 }
 
 div#title
@@ -265,7 +275,8 @@ div#title
 
 #logo
 {
-    margin-top: 82px;
+    margin-top: 72px;
+    margin-left: 23px;
 }
 
 #logindisplay

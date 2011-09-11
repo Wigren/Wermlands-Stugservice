@@ -83,7 +83,11 @@
     <Content Include="demo\test_tubes.png" />
     <Content Include="GenericErrorPage.html" />
     <Content Include="humans.txt" />
+    <Content Include="img\bakgrundvinter01.png" />
+    <Content Include="img\skuggning.png" />
     <Content Include="img\wss_logotype.png" />
+    <Content Include="img\wss_logotype100.png" />
+    <Content Include="img\wss_logotype150.png" />
     <Content Include="js\libs\jquery-1.6.2.min.js" />
     <Content Include="js\libs\jquery.unobtrusive-ajax.js" />
     <Content Include="js\libs\jquery.unobtrusive-ajax.min.js" />
