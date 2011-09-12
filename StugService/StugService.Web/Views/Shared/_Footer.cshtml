@@ -2,34 +2,43 @@
 @using StugService.Web.Extensions
 @if (Request.CurrentLang() == Lang.Sv)
 {
-    <div class="column">
+    <div id="footer-one" class="column">
         <h2>
-            Kontakt</h2>
-        <h3>
-            Bokning och frågor</h3>
+            Wermlands stugservice</h2>
+        <p>
+            Tillsyn för ditt hus eller din sommarstuga.
+        </p>
         <ul>
-            <li>Daniel Bergström 0702-072072</li>
-            <li>Linnéa Engström 0702-072073</li>
-        </ul>
-        <h3>
-            Servicetekniker</h3>
-        <ul>
-            <li>Lars-Erik Engström 070207207</li>
-            <li>Mikeal Engström 0702072074</li>
+            <li>Bankgiro: 5768-0464 </li>
+            <li>Org.nr 810402-1913</li>
         </ul>
     </div>
-    <div class="column">
+    <div id="footer-two" class="column">
         <h2>
-            Vi som jobbar här</h2>
+            Bokning och frågor</h2>
+        <ul>
+            <li><strong>Linnéa Engström</strong></li>
+            <li><a class="callto" href="callto:0702072072">0702-072072</a></li>
+            <li><a class="mailTo" href="mailto:linnea.engstrom@wermlandsstugservice.se">linnea.engstrom@wermlandsstugservice.se</a></li>
+            <li><strong>Daniel Bergström</strong></li>
+            <li><a class="callto" href="callto:0702072072">0702-072072</a></li>
+            <li><a class="mailTo" href="mailto:daniel.bergstrom@wermlandsstugservice.se">daniel.bergstrom@wermlandsstugservice.se</a></li>
+        </ul>
     </div>
-    <div class="column">
+    <div id="footer-three" class="column">
         <h2>
-            Vi har f-skatt osv</h2>
+            Servicetekniker</h2>
+        <ul>
+            <li><strong>Mikael Engström</strong></li>
+            <li><a class="callto" href="callto:0702072072">0702-072072</a></li>
+            <li><a class="mailTo" href="mailto:mikael.engstrom@wermlandsstugservice.se">mikael.engstrom@wermlandsstugservice.se</a></li>
+        </ul>
     </div>
+    
 }
 else if (Request.CurrentLang() == Lang.En)
 {
-    <div class="column">
+    <div id="footer-one" class="column">
         <h2>
             Contact</h2>
         <h3>
@@ -45,18 +54,18 @@ else if (Request.CurrentLang() == Lang.En)
             <li>Mikeal Engström 0702072074</li>
         </ul>
     </div>
-    <div class="column">
+    <div id="footer-two" class="column">
         <h2>
             Vi som jobbar här</h2>
     </div>
-    <div class="column">
+    <div id="footer-three" class="column">
         <h2>
             Vi har f-skatt osv</h2>
     </div>
 }
 else if (Request.CurrentLang() == Lang.De)
 {
-    <div class="column">
+    <div id="footer-one" class="column">
         <h2>
             Tyska</h2>
         <h3>
@@ -72,18 +81,18 @@ else if (Request.CurrentLang() == Lang.De)
             <li>Mikeal Engström 0702072074</li>
         </ul>
     </div>
-    <div class="column">
+    <div id="footer-two" class="column">
         <h2>
             Vi som jobbar här</h2>
     </div>
-    <div class="column">
+    <div id="footer-three" class="column">
         <h2>
             Vi har f-skatt osv</h2>
     </div>
 }
 else if (Request.CurrentLang() == Lang.Nl)
 {
-    <div class="column">
+    <div id="footer-one" class="column">
         <h2>
             Nederlänska</h2>
         <h3>
@@ -99,11 +108,11 @@ else if (Request.CurrentLang() == Lang.Nl)
             <li>Mikeal Engström 0702072074</li>
         </ul>
     </div>
-    <div class="column">
+    <div id="footer-two" class="column">
         <h2>
             Vi som jobbar här</h2>
     </div>
-    <div class="column">
+    <div id="footer-three" class="column">
         <h2>
             Vi har f-skatt osv</h2>
     </div>

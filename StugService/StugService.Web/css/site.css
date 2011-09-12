@@ -82,7 +82,7 @@ page width. Or, you can specify an exact pixel width. */
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background:#ffffff url('/img/bakgrundvinter01.png') no-repeat right 23px;
+    background: #ffffff url('/img/bakgrundvinter01.png') no-repeat right 23px;
 }
 
 #header
@@ -117,27 +117,53 @@ page width. Or, you can specify an exact pixel width. */
     background-color: #fff;
 }
 
+/* FOOTER   
+----------------------------------------------------------*/
+
 #footer
 {
-    color: #999;
-    padding: 10px 0 20px 0;
-    text-align: center;
+    background: url("/img/skuggning.png") no-repeat scroll right top #FFFFFF;
+    color: #000;
+    font-size: 0.9em;
     line-height: normal;
-    margin: 0 0 10px 0;
-    font-size: .9em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
     min-height: 200px;
-    background:#ffffff url('/img/skuggning.png') no-repeat right top;
+    padding: 10px 0 20px;
+    text-align: center;
+    width: 960px;
 }
 
 #footer .column
 {
     float: left;
-    width: 28%;
     margin-bottom: 15px;
     text-align: left;
     margin-left: 20px;
 }
 
+#footer-one
+{
+    width: 345px;
+}
+
+#footer-two
+{
+    width: 310px;
+}
+
+#footer-three
+{
+    width: 190px;
+}
+
+#footer ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 /* TAB MENU   
 ----------------------------------------------------------*/
@@ -196,31 +222,31 @@ ul#menu li.selected a
 /* FORM LAYOUT ELEMENTS   
 ----------------------------------------------------------*/
 
-fieldset 
+fieldset
 {
-    border:1px solid #ddd;
-    padding:0 1.4em 1.4em 1.4em;
-    margin:0 0 1.5em 0;
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
 }
 
-legend 
+legend
 {
-    font-size:1.2em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-textarea 
+textarea
 {
     min-height: 75px;
 }
 
-input[type="text"] 
+input[type="text"]
 {
     width: 200px;
     border: 1px solid #CCC;
 }
 
-input[type="password"] 
+input[type="password"]
 {
     width: 200px;
     border: 1px solid #CCC;
@@ -229,24 +255,24 @@ input[type="password"]
 /* TABLE
 ----------------------------------------------------------*/
 
-table 
+table
 {
-  border: solid 1px #e8eef4;
-  border-collapse: collapse;
+    border: solid 1px #e8eef4;
+    border-collapse: collapse;
 }
 
-table td 
+table td
 {
-  padding: 5px;   
-  border: solid 1px #e8eef4;
+    padding: 5px;
+    border: solid 1px #e8eef4;
 }
 
 table th
 {
-  padding: 6px 5px;
-  text-align: left;
-  background-color: #e8eef4; 
-  border: solid 1px #e8eef4;   
+    padding: 6px 5px;
+    text-align: left;
+    background-color: #e8eef4;
+    border: solid 1px #e8eef4;
 }
 
 /* MISC  
@@ -258,19 +284,19 @@ table th
 
 .error
 {
-    color:Red;
+    color: Red;
 }
 
 #menucontainer
 {
-    margin-top:80px;
+    margin-top: 80px;
 }
 
 div#title
 {
-    display:block;
-    float:left;
-    text-align:left;
+    display: block;
+    float: left;
+    text-align: left;
 }
 
 #logo
@@ -345,16 +371,14 @@ div#title
 
 /* Styles for editor and display helpers
 ----------------------------------------------------------*/
-.display-label,
-.editor-label
+.display-label, .editor-label
 {
     margin: 1em 0 0 0;
 }
 
-.display-field,
-.editor-field
+.display-field, .editor-field
 {
-    margin:0.5em 0 0 0;
+    margin: 0.5em 0 0 0;
 }
 
 .text-box
