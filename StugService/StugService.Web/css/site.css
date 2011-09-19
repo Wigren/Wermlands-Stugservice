@@ -7,6 +7,7 @@
 body
 {
     color: #696969;
+    font-size: 15px;
 }
 
 a:link
@@ -135,7 +136,13 @@ page width. Or, you can specify an exact pixel width. */
     width: 960px;
 }
 
-#footer .column
+.row
+{
+    clear: both;
+    overflow: hidden;
+}
+
+.column
 {
     float: left;
     margin-bottom: 15px;
@@ -143,19 +150,24 @@ page width. Or, you can specify an exact pixel width. */
     margin-left: 20px;
 }
 
+.row.ingress .column
+{
+    width: 340px;
+}
+
 #footer-one
 {
-    width: 345px;
+    width: 302px;
 }
 
 #footer-two
 {
-    width: 310px;
+    width: 305px;
 }
 
 #footer-three
 {
-    width: 190px;
+    width: 293px;
 }
 
 #footer ul
