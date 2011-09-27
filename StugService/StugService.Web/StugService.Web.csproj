@@ -84,7 +84,9 @@
     <Content Include="GenericErrorPage.html" />
     <Content Include="humans.txt" />
     <Content Include="img\bakgrundvinter01.png" />
+    <Content Include="img\checkbox.jpg" />
     <Content Include="img\skuggning.png" />
+    <Content Include="img\sprite-btns.png" />
     <Content Include="img\wss_logotype.png" />
     <Content Include="img\wss_logotype100.png" />
     <Content Include="img\wss_logotype150.png" />
