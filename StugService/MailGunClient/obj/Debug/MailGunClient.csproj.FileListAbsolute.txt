@@ -1,0 +1,5 @@
+C:\Work\git\WermlandsStugService\StugService\MailGunClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Work\git\WermlandsStugService\StugService\MailGunClient\bin\Debug\MailGunClient.dll
+C:\Work\git\WermlandsStugService\StugService\MailGunClient\bin\Debug\MailGunClient.pdb
+C:\Work\git\WermlandsStugService\StugService\MailGunClient\obj\Debug\MailGunClient.dll
+C:\Work\git\WermlandsStugService\StugService\MailGunClient\obj\Debug\MailGunClient.pdb

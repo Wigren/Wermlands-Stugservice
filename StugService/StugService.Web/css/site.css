@@ -139,7 +139,7 @@ page width. Or, you can specify an exact pixel width. */
     font-size: 3em;
 }
 
-#banner h1 
+#banner h1
 {
     font-size: 0.7em;
     margin: 0;
@@ -149,7 +149,7 @@ page width. Or, you can specify an exact pixel width. */
 {
     margin: 0;
     padding: 0;
-    font-size: 0.5em;    
+    font-size: 0.5em;
 }
 
 
@@ -176,6 +176,7 @@ page width. Or, you can specify an exact pixel width. */
 {
     clear: both;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .column
@@ -186,20 +187,58 @@ page width. Or, you can specify an exact pixel width. */
     margin-left: 20px;
 }
 
-.row.ingress .column .one
+.row.ingress .column.one
 {
-    width: 340px;
+    width: 380px;
+    margin-right: 30px;
 }
 
-.row.ingress .column .two
+.row.ingress .column.two ul
 {
-    width: 340px;
+    border: 1px solid #000000;
+    list-style: none outside none;
+    margin: 10px;
+    padding: 25px 53px;
+}
+.row.ingress .column.two ul li
+{
+    background: url("/img/checkbox3.jpg") no-repeat scroll 0 -1px transparent;
+    font-size: 1.15em;
+    font-weight: bold;
+    padding: 0 0 19px 51px;
 }
 
 .row.offer
 {
-    
+    background-color: #eeeeee;
+    padding: 10px;
+    -moz-border-radius: 5px;
 }
+
+.row.offer .column.one
+{
+    width: 340px;
+}
+
+.row.offer .column.two
+{
+    margin-left: 70px;
+    width: 340px;
+}
+
+.row.about .column.one
+{
+    width: 340px;
+}
+
+.row.about .column.two
+{
+    margin-left: 70px;
+    width: 340px;
+}
+
+
+
 
 #footer-one
 {
@@ -208,8 +247,7 @@ page width. Or, you can specify an exact pixel width. */
 
 #footer-two
 {
-    width: 305px;
-    /*margin-left: 342px;*/
+    width: 305px; /*margin-left: 342px;*/
 }
 
 #footer-three
@@ -230,8 +268,6 @@ page width. Or, you can specify an exact pixel width. */
 {
     float: right;
 }
-
-
 
 #footer ul
 {
@@ -260,7 +296,8 @@ ul.usp li
     margin-top: 18px;
 }
 
-.btn-signup-huge {
+.btn-signup-huge
+{
     background: url("/img/sprite-btns.png") no-repeat scroll right -301px transparent;
     color: #FFFFFF;
     cursor: pointer;
@@ -271,7 +308,8 @@ ul.usp li
     text-shadow: -1px -1px 0 #24941B;
 }
 
-.btn-signup-huge span {
+.btn-signup-huge span
+{
     background: url("/img/sprite-btns.png") no-repeat scroll 0 -301px transparent;
     display: inline-block;
     padding: 17px 16px 25px 27px;
@@ -386,8 +424,7 @@ table th
 {
     padding: 6px 5px;
     text-align: left;
-    background-color: #e8eef4;
-    border: solid 1px #e8eef4;
+    border-bottom: solid 1px #000;
 }
 
 /* MISC  
@@ -509,4 +546,17 @@ div#title
 .tri-state
 {
     width: 6em;
+}
+
+/* Styles for editor and display helpers
+----------------------------------------------------------*/
+
+#contact-form .editor-field input
+{
+    width: 450px;
+}
+
+#contact-form .text-box.multi-line textarea
+{
+    width: 450px;
 }
