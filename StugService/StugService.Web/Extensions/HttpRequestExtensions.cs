@@ -21,5 +21,25 @@ namespace StugService.Web.Extensions
 
             return Lang.Sv;
         }
+
+        public static bool IsStartPage(this HttpRequestBase request)
+        {
+            if (request.Url != null)
+            {
+                var pathAndQuery = request.Url.PathAndQuery;
+
+                if (pathAndQuery == "/"
+                    || pathAndQuery.EndsWith("/En/")
+                    || pathAndQuery.EndsWith("/En")
+                    || pathAndQuery.EndsWith("/Sv/")
+                    || pathAndQuery.EndsWith("/Sv")
+                    || pathAndQuery.Contains("/Nl/")
+                    || pathAndQuery.EndsWith("/Nl")
+                    || pathAndQuery.Contains("/De/")
+                    || pathAndQuery.EndsWith("/De"))
+                    return true;
+            }
+            return false;
+        }
     }
 }

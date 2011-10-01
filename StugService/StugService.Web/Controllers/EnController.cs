@@ -2,7 +2,7 @@ using System.Web.Mvc;
 
 namespace StugService.Web.Controllers
 {
-    public class EnController : Controller
+    public class EnController : Base.ControllerBase
     {
         public ActionResult Index()
         {
@@ -21,5 +21,9 @@ namespace StugService.Web.Controllers
             return View();
         }
 
+        public override ActionResult Thanks()
+        {
+            return View();
+        }
     }
 }

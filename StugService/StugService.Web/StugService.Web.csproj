@@ -59,11 +59,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\ContactFormController.cs" />
+    <Compile Include="Controllers\Base\ControllerBase.cs" />
     <Compile Include="Controllers\EnController.cs" />
     <Compile Include="Controllers\NlController.cs" />
     <Compile Include="Controllers\DeController.cs" />
-    <Compile Include="Controllers\SharedController.cs" />
     <Compile Include="Controllers\SvController.cs" />
     <Compile Include="Extensions\HtmlExtensions.cs" />
     <Compile Include="Extensions\HttpRequestExtensions.cs" />
@@ -131,9 +130,13 @@
     <Content Include="Views\En\About.cshtml" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\Nl\Over.cshtml" />
+    <Content Include="Views\Shared\_FooterStartPage.cshtml" />
+    <Content Include="Views\Sv\Tack.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
-    <Content Include="Views\Sv\ContactConfirm.cshtml" />
-    <Content Include="Views\Sv\Contact.cshtml" />
+    <Content Include="Views\Nl\Bedankt.cshtml" />
+    <Content Include="Views\En\Thanks.cshtml" />
+    <Content Include="Views\De\Danke.cshtml" />
+    <Content Include="Views\Shared\_Logo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />

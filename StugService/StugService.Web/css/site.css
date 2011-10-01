@@ -199,6 +199,7 @@ page width. Or, you can specify an exact pixel width. */
     list-style: none outside none;
     margin: 10px;
     padding: 25px 53px;
+    width: 320px;
 }
 .row.ingress .column.two ul li
 {
@@ -451,10 +452,15 @@ div#title
     text-align: left;
 }
 
+div#title a
+{
+  
+}
+
 #logo
 {
     margin-top: 72px;
-    margin-left: 23px;
+    margin-left: 23px;  
 }
 
 #logindisplay

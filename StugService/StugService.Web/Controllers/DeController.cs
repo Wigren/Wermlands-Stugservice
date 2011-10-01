@@ -2,7 +2,7 @@
 
 namespace StugService.Web.Controllers
 {
-    public class DeController : Controller
+    public class DeController : Base.ControllerBase
     {
         //
         // GET: /De/
@@ -22,5 +22,9 @@ namespace StugService.Web.Controllers
             return View();
         }
 
+        public override ActionResult Danke()
+        {
+            return View();
+        }
     }
 }

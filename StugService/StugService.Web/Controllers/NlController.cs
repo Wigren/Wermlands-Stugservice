@@ -2,12 +2,10 @@ using System.Web.Mvc;
 
 namespace StugService.Web.Controllers
 {
-    public class NlController : Controller
+    public class NlController : Base.ControllerBase
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "MotherEffin HTML5 Boilerplate MVC!";
-
             return View();
         }
 
@@ -15,11 +13,14 @@ namespace StugService.Web.Controllers
         {
             return View();
         }
-        
+
         public ActionResult Service()
         {
             return View();
         }
-
+        public override ActionResult Bedankt()
+        {
+            return View();
+        }
     }
 }
