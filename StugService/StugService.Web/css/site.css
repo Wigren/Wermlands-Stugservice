@@ -80,7 +80,7 @@ first child of the left and right table columns */
 page width. Or, you can specify an exact pixel width. */
 .page, #container
 {
-    width: 960px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     background: #ffffff url('/img/bakgrundvinter01.png') no-repeat right 23px;
@@ -139,6 +139,20 @@ page width. Or, you can specify an exact pixel width. */
     font-size: 3em;
 }
 
+#banner h1 
+{
+    font-size: 0.7em;
+    margin: 0;
+}
+
+#banner p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;    
+}
+
+
 /* FOOTER   
 ----------------------------------------------------------*/
 
@@ -172,9 +186,19 @@ page width. Or, you can specify an exact pixel width. */
     margin-left: 20px;
 }
 
-.row.ingress .column
+.row.ingress .column .one
 {
     width: 340px;
+}
+
+.row.ingress .column .two
+{
+    width: 340px;
+}
+
+.row.offer
+{
+    
 }
 
 #footer-one
@@ -193,6 +217,22 @@ page width. Or, you can specify an exact pixel width. */
     width: 293px;
 }
 
+#footer-bar
+{
+    clear: both;
+    text-align: left;
+    border-top: solid 1px #000;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+#footer-bar .addthis_toolbox
+{
+    float: right;
+}
+
+
+
 #footer ul
 {
     list-style: none;
@@ -200,12 +240,12 @@ page width. Or, you can specify an exact pixel width. */
     padding: 0;
 }
 
-ul.ups
+#footer-one ul.usp
 {
-    margin-bottom: 10px;
+    margin-top: 19px;
 }
 
-ul.ups li
+ul.usp li
 {
     background: url("/img/checkbox3.jpg") no-repeat scroll 0 -1px transparent;
     font-size: 1.15em;
@@ -217,6 +257,7 @@ ul.ups li
 {
     text-decoration: none;
     color: #FFF;
+    margin-top: 18px;
 }
 
 .btn-signup-huge {

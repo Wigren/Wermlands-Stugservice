@@ -50,15 +50,30 @@
                 @Html.Partial("_Menu")
             </div>
         </header>
-            @RenderBody()
-        </div>
+        @RenderBody()
         <footer id="footer">
             @Html.Partial("_Footer")
+            <div id="footer-bar">
+                <span>Bankgiro: 5768-0464 | Org.nr: 810402-1913</span>
+                <div class="addthis_toolbox addthis_default_style ">
+                    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                    <a class="addthis_button_tweet"></a>
+                    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+                </div>
+        </div>
         </footer>
     </div>
     <!--! end of #container -->
     <!-- JavaScript at the bottom for fast page loading -->
     <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+    <script type="text/javascript">
+        var addthis_config = {
+            data_ga_property: 'UA-25428877-1',
+            data_ga_social: true
+        };
+        </script>
+        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+    
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script>      window.jQuery || document.write("<script src='@Url.Content("~/js/libs/jquery-1.6.1.min.js")'>\x3C/script>")</script>
     @* Add other javascript files here if you want them squished on release *@ @*@Html.Raw(SquishIt.Framework.Bundle.JavaScript()
