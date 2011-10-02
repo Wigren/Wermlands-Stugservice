@@ -212,14 +212,6 @@
                     </tr>
                     <tr>
                         <td>
-                            Fönsterputs
-                        </td>
-                        <td>
-                            Valbar
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
                             Vårstädning
                         </td>
                         <td>
@@ -267,8 +259,7 @@
                 t.ex iordningställande av stuga inför sommarsäsongen med allt vad det innebär, eller
                 fyller kylen med önskade matvaror inför ankomst.</li></ul>
     </div>
-    
-    @using (Html.BeginForm("Contact","sv"))
+    @using (Html.BeginForm("Contact", "sv"))
     {
         @Html.ValidationSummary(true)
         <fieldset id="contact-form">
