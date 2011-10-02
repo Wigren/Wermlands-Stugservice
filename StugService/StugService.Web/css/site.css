@@ -218,7 +218,7 @@ page width. Or, you can specify an exact pixel width. */
 
 .row.offer .column.one
 {
-    width: 340px;
+    width: 350px;
 }
 
 .row.offer .column.two
@@ -230,6 +230,7 @@ page width. Or, you can specify an exact pixel width. */
 .row.offer .column.two table
 {
     margin-bottom: 40px;
+    width: 350px;
 }
 
 .row.about .column.one
