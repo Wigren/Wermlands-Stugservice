@@ -196,6 +196,8 @@ page width. Or, you can specify an exact pixel width. */
 .row.ingress .column.two ul
 {
     border: 1px solid #000000;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
     list-style: none outside none;
     margin: 10px;
     padding: 25px 53px;
@@ -203,7 +205,7 @@ page width. Or, you can specify an exact pixel width. */
 }
 .row.ingress .column.two ul li
 {
-    background: url("/img/checkbox3.jpg") no-repeat scroll 0 -1px transparent;
+    background: url("/img/checkbox5.png") no-repeat scroll 0 -1px transparent;
     font-size: 1.15em;
     font-weight: bold;
     padding: 0 0 19px 51px;
@@ -290,7 +292,7 @@ page width. Or, you can specify an exact pixel width. */
 
 ul.usp li
 {
-    background: url("/img/checkbox3.jpg") no-repeat scroll 0 -1px transparent;
+    background: url("/img/checkbox5.png") no-repeat scroll 0 -1px transparent;
     font-size: 1.15em;
     font-weight: bold;
     padding: 0 0 12px 50px;
@@ -305,23 +307,50 @@ ul.usp li
 
 .btn-signup-huge
 {
-    background: url("/img/sprite-btns.png") no-repeat scroll right -301px transparent;
+    background: url("/img/davidknapp3.png") no-repeat scroll right 7px transparent;
     color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
     font-size: 1.5em;
     font-weight: bold;
     padding-right: 11px;
-    text-shadow: -1px -1px 0 #24941B;
+    text-shadow: -1px -1px 0 #517611;
 }
 
 .btn-signup-huge span
 {
-    background: url("/img/sprite-btns.png") no-repeat scroll 0 -301px transparent;
+    background: url("/img/davidknapp3.png") no-repeat scroll 0 7px transparent;
     display: inline-block;
     padding: 17px 16px 25px 27px;
 }
 
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#42ff42 0%,
+		#146600);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#42ff42),
+		to(#146600));
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #134201;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
 
 
 
