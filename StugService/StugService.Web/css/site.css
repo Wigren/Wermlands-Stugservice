@@ -387,13 +387,11 @@ ul#menu li a:hover
 
 ul#menu li a:active
 {
-    background-color: #fff;
     text-decoration: none;
 }
 
 ul#menu li.selected a
 {
-    background-color: #fff;
     color: #333333;
 }
 
