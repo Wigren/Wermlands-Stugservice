@@ -1,3 +1,4 @@
+using System;
 using System.Web.Mvc;
 using StugService.Web.Models;
 
@@ -12,6 +13,7 @@ namespace StugService.Web.Controllers
 
         public ActionResult Om()
         {
+            ViewData["Changeing"] = DateTime.Now.ToString();
             return View();
         }
 
