@@ -12,3 +12,5 @@ StugService.6.0.ReSharper.user
 */StugService.Web/obj/
 */StugService.Web/bin/
 StugService/_ReSharper
+
+StugService/MailGunClient/bin/*
