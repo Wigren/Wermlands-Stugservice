@@ -10,6 +10,11 @@ namespace StugService.Web.Controllers
         {
             return View();
         }
+        
+        public ActionResult Index2()
+        {
+            return View();
+        }
 
         public ActionResult Om()
         {
