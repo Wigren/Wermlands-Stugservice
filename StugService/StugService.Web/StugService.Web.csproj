@@ -144,6 +144,7 @@
     <Content Include="Views\En\Thanks.cshtml" />
     <Content Include="Views\De\Danke.cshtml" />
     <Content Include="Views\Shared\_Logo.cshtml" />
+    <Content Include="Views\Sv\Index2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
