@@ -1,0 +1,290 @@
+﻿@using StugService.Web.Models
+@model ContactViewModel
+@{
+    Page.Title = "Wermlands stugservice - Våra Tjänster";
+    
+}
+<div id="main" class="content" role="main">
+    <div class="row ingress">
+        <div class="column one">
+            <h2>
+                Vi hjälper dig att ta hand om din stuga</h2>
+            <p>
+                Wermlands stugservice hjälper stugägare i Värmland att ta hand om sin stuga eller
+                trädgård. Vi erbjuder allt från färdigt tillsynspaket till skräddarsydda tjänster
+                efter kundens behov och önskemål.</p>
+        </div>
+        <div class="column two">
+            <ul>
+                <li>Tillsyn av ditt hus</li>
+                <li>Gräsklippning, snöskottning m.m.</li>
+                <li>Skräddarsydda tjänster</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row offer">
+        <h3>Tillsyn 700kr/månad</h3>
+        <p>
+            Tillsyn och rapportering var 14:e dag.<br />
+            Efter varje tillsynstillfälle skickas en statusrapport till husägaren via email.<br />
+            I statusrapporten ingår också foton på hus och ägor.</p>
+        <div class="column one">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Tillsyn som ingår
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Inbrott</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Inga trasiga el. uppbrutna fönster
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Inga uppbrutna lås eller dörrar
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Vatten, avlopp och el</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Inga synliga vattenläckage
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Inga frusna ledningar <i>(förutsätter att hushållsvatten inte är avstängt)</i>
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Inga trasiga proppar
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Oljepanna/ värmesystem</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Inomhustemperatur
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Tillsyn av funktion
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Trädgård</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Inga fallna träd
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Inget vandaliserat
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Rapportering</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Statusrapport via mejl
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Foton av hus och ägor
+                        </td>
+                        <td>
+                            Ja
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="column two">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Tilläggstjänster
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Trädgårdsskötsel</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Snöskottning
+                        </td>
+                        <td>
+                            Valbar
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gräsklippning
+                        </td>
+                        <td>
+                            Valbar
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Fastighetsskötsel</strong>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Vårstädning
+                        </td>
+                        <td>
+                            Valbar
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Skräddarsydda tjänster efter dina önskemål
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>
+                                Vi hjälper dig med t.ex. iordningställande av din stuga inför sommarsäsongen och
+                                fyller kylen med önskade matvaror inför ankomst.<br />
+                                Kanske vill du ha hjälp med båten inför säsongen, vi hjälper dig med att sjösätta den.
+                                <br />
+                                etc.
+                            </p>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row offer">
+        <h3>
+            Övriga tjänster 350kr/h
+        </h3>
+        <p>
+            Behöver du inget tillsynspaket men vill ändå ha hjälp kan vi hjälpa dig också.
+        </p>
+        <ul>
+            <li>Snöskottning </li>
+            <li>Gräsklippning</li>
+            <li>Vårstädning</li>
+            <li>Trädgårdsskötsel </li>
+            <li>Fastighetsskötsel</li>
+            <li>Skräddarsydda tjänster enligt ditt önskemål<br />
+                t.ex iordningställande av stuga inför sommarsäsongen med allt vad det innebär, eller
+                fyller kylen med önskade matvaror inför ankomst.</li></ul>
+    </div>
+    @using (Html.BeginForm("kon", "Sv"))
+    {
+        @Html.ValidationSummary(true)
+        <fieldset id="contact-form">
+            <legend>&nbsp;Kontakta oss så berättar mer&nbsp;</legend>
+            <div class="editor-label">
+                Din epost adress
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.From)
+                @Html.ValidationMessageFor(model => model.From)
+            </div>
+            <div class="editor-label">
+                Meddelande
+            </div>
+            <div class="text-box multi-line">
+                @Html.TextAreaFor(model => model.Message)
+                @Html.ValidationMessageFor(model => model.Message)
+            </div>
+            <p>
+                <input type="submit" value="Skicka" />
+            </p>
+        </fieldset>
+    }
+</div>

@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StugService.Web", "StugService.Web\StugService.Web.csproj", "{701827F4-CF30-456D-B529-469BB3C419AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailGunClient", "MailGunClient\MailGunClient.csproj", "{CDFD236C-5669-481C-86B3-5B55055FFC4C}"
